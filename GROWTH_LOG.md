@@ -6,6 +6,11 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-10-13 — Adsterra codes integrated for the V4 inventory
+
+- Filled the seven `ads.units` keys (`page-top-728x90`, `page-top-468x60`, `page-top-320x50`, `guide-section-break-728x90`, `guide-section-break-468x60`, `guide-section-break-320x50`, `footer-sponsored-smartlink`) with the platform codes returned by the Adsterra integration; same platform placements reused across both page families (`page-top`, `guide-section-break`) and the Smartlink keeps a single footer slot.
+- No inventory, slot, page, layout, deployment or ownership change. Local `npm run verify` passes after the placeholder replacement.
+
 ### 2026-10-13 — Among the Trolls Wiki first launch
 
 - First production build for `amongthetrolls.wiki` (Steam App 1675260). 18 public routes: home, 12 guides (`walkthrough`, `map-overview`, `grandfather-cabin-location`, `dungeon-locations`, `magic-and-luck`, `survival-guide`, `crafting-and-building`, `archery-and-hunting`, `combat-supernatural`, `kalevala-creatures`, `rituals`, `story-arc`), FAQ, About, Contact, Privacy Policy, Terms.
