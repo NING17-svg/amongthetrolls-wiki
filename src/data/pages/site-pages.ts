@@ -148,7 +148,7 @@ export const sitePages: PageContent[] = [
       ctas: [{ label: "Read About", href: "/about" }],
     },
     quickAnswer:
-      "Send corrections or feedback through the channel listed on this page once the site is published; the page currently holds the placeholder contact route for the launch Builder to fill.",
+      "For corrections, source updates, or feedback about Among the Trolls Wiki, email support@amongthetrolls.wiki.",
     keyFacts: [
       { label: "Primary use", value: "Corrections and source updates" },
       { label: "Policy", value: "No game account credentials requested" },
@@ -159,14 +159,14 @@ export const sitePages: PageContent[] = [
         type: "prose",
         heading: "Contact method",
         body:
-          "Add a working email address or contact form endpoint before publishing. This page exists so the site has a complete trust-page structure for the launch Builder to fill.",
+          "Email support@amongthetrolls.wiki. Include the page URL and a short description of the correction or feedback so it can be reviewed in context.",
       },
       {
         id: "corrections",
         type: "prose",
         heading: "Corrections",
         body:
-          "Invite readers to send Steam or developer source links when facts change. Do not request private account information or game account credentials.",
+          "If a game detail changes, include a Steam or developer source link when possible. Do not send passwords or game account credentials.",
       },
     ],
     faqIds: [],

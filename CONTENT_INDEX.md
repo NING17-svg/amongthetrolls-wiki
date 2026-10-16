@@ -55,3 +55,21 @@ The rows below are the primary-locale baseline. This site ships only the en-US l
 ## Open Questions
 
 - No new content product question is pending at launch. The contact page advertises a placeholder route that future updates can replace with a real address.
+## Guide Body Next Steps (2026-10-16)
+
+Each guide offers a relevant next guide in the body section named below. The page-end related list remains supplementary.
+
+| Guide URL | Body section | Next guide |
+|---|---|---|
+| `/guides/archery-and-hunting` | The Hunting Loop | `/guides/combat-supernatural/` |
+| `/guides/combat-supernatural` | Weapons and Tools That Work | `/guides/magic-and-luck/` |
+| `/guides/crafting-and-building` | What the Craft Grid Produces | `/guides/magic-and-luck/` |
+| `/guides/dungeon-locations` | How Players Reach a Dungeon | `/guides/map-overview/` |
+| `/guides/grandfather-cabin-location` | Why the Cabin Is Empty | `/guides/story-arc/` |
+| `/guides/kalevala-creatures` | Forest Spirits and the Cupstone Network | `/guides/rituals/` |
+| `/guides/magic-and-luck` | Vaki: The Magic / Animistic Power | `/guides/crafting-and-building/` |
+| `/guides/map-overview` | Kynnykset (Threshold Arches) | `/guides/dungeon-locations/` |
+| `/guides/rituals` | Kynnys (Threshold) Rituals | `/guides/dungeon-locations/` |
+| `/guides/story-arc` | The Talking Crow and Early Guides | `/guides/magic-and-luck/` |
+| `/guides/survival-guide` | How Weather Couples Into Lykky | `/guides/magic-and-luck/` |
+| `/guides/walkthrough` | The Four Pillars in Order | `/guides/crafting-and-building/` |

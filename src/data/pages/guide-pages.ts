@@ -51,6 +51,7 @@ export const guidePages: PageContent[] = [
         heading: "The Four Pillars in Order",
         body:
           "The demo walks through four pillars in this order: Atmosphere, Survival and Crafting, Story, and Supernatural. Treat each pillar as one progression block rather than four independent quests.\n\n1. **Atmosphere.** Explore the Finnish wilderness and partially interactive landmarks. This pillar establishes how to read the world and the audio cues (birdong is louder in clear weather, quieter under rain or strong wind).\n2. **Survival and Crafting.** Gather wood, build bridges, drag items into the 3D backpack's craft grid, follow recipes in Anna's journal, and cook at a campfire. Campfire food can burn to ash if overcooked. Track Hunger, Thirst, Sleep, and Temperature throughout.\n3. **Story.** Anna's early journey toward Grandpa's cabin, meeting the talking Crow that guides her, and learning that Grandpa was a shaman in the tietäjä tradition.\n4. **Supernatural.** A teaser of the kynnykset (Threshold arches) that lead into dungeons. The largest fights are reserved for the full release, so do not expect a final boss in the demo.",
+        links: [{ label: "Among the Trolls Crafting Guide: Backpack, Shelters, Bridges", href: "/guides/crafting-and-building/" }],
       },
       {
         id: "verified-beats",
@@ -118,6 +119,7 @@ export const guidePages: PageContent[] = [
         heading: "Kynnykset (Threshold Arches)",
         body:
           "- Kynnykset are solitary stone portals scattered across the islands; each is bound to a destination word.\n- The kynnys opens only when the player selects the Portal Page whose word matches that destination; the wrong page leaves the arch closed.\n- Dungeon identities differ — mystery, tension, survival, and prior-human-presence zones all carry distinct moods — so the same kynnys is not interchangeable with another.\n- Some dungeons carry alternate exits; most alternate exits require an extra item or condition before they unlock.",
+        links: [{ label: "Among the Trolls Dungeon Locations: Kynnys Portals and Exits", href: "/guides/dungeon-locations/" }],
       },
       {
         id: "water-layer",
@@ -199,6 +201,7 @@ export const guidePages: PageContent[] = [
         heading: "Why the Cabin Is Empty",
         body:
           "- The cabin is the entry point for Anna's investigation of her grandfather and her brother's disappearance, not a place to expect conversation or quest NPCs.\n- Items and lore inside the cabin frame the rest of the run; players should treat it as a story anchor and a practice area rather than a settlement.\n- The talking Crow that acts as Anna's early guide appears on the route to and around the cabin, not inside it.",
+        links: [{ label: "Among the Trolls Story: Anna Quest for Her Missing Grandpa", href: "/guides/story-arc/" }],
       },
     ],
     faqIds: [],
@@ -245,6 +248,17 @@ export const guidePages: PageContent[] = [
         heading: "How Players Reach a Dungeon",
         body:
           "- Find a kynnys on the surface; they are solitary stone arches scattered across the islands.\n- Check the Portal Page the player is carrying. If the page's word matches the kynnykset's destination word, the passage opens.\n- If the words do not match, the kynnys stays closed and the player has to keep searching the archipelago for the correct page.\n- The largest kynnys fights are reserved for the full release; the demo only teases the portal system.",
+        links: [{ label: "Among the Trolls Map: Archipelago, Bridges and Kynnykset", href: "/guides/map-overview/" }],
+      },
+      {
+        id: "field-checklist",
+        type: "steps",
+        heading: "What to do next",
+        items: [
+          { title: "Find the threshold arch", body: "Locate a kynnys on the island route." },
+          { title: "Match the destination", body: "Select the Portal Page whose word belongs to that arch." },
+          { title: "Plan the exit", body: "Inside the dungeon, check whether to return to the entry point or use an alternate exit." },
+        ],
       },
       {
         id: "dungeon-identities",
@@ -311,6 +325,7 @@ export const guidePages: PageContent[] = [
         heading: "Vaki: The Magic / Animistic Power",
         body:
           "- Vaki is the magic channel that fuels the player's connection to the supernatural.\n- Vaki is invoked through crafting magical potions in Anna's 3D backpack; these potions let Anna survive dungeons, hostile creatures, and the effects of bad Lykky.\n- Vaki ties into the tietäjä (shamanic-keeper) tradition, including enchant settlements that calm corrupted areas of the forest.\n- Magic bridges are crafted via Vaki; they are how the player reaches smaller islands and repairs some mysteriously broken bridges.",
+        links: [{ label: "Among the Trolls Crafting Guide: Backpack, Shelters, Bridges", href: "/guides/crafting-and-building/" }],
       },
       {
         id: "lykky",
@@ -391,6 +406,7 @@ export const guidePages: PageContent[] = [
         heading: "How Weather Couples Into Lykky",
         body:
           "- When bad weather persists, the Lykky balance sours; animals become more aggressive, resources thin out, and tools degrade faster.\n- Conversely, balanced play and good weather push Lykky back up.\n- Bad weather is therefore not just a stat-pressure event — it is a sign the player is also losing Lykky and should plan a cupstone offering soon.",
+        links: [{ label: "Among the Trolls Magic and Luck: Vaki and Lykky Explained", href: "/guides/magic-and-luck/" }],
       },
       {
         id: "first-day-loop",
@@ -445,11 +461,22 @@ export const guidePages: PageContent[] = [
           "- The backpack shows a simple 2D overlay that gives contextual info on each item inside.\n- To craft, the player physically drags two or more items from the backpack into the backpack's craft grid.\n- Combining branches, twigs, sticks, stone, hide, and gathered plants produces tools, weapons, materials, and consumables.\n- Successful crafts consume the inputs; failed attempts waste them, so the player should plan ingredient order before dragging.",
       },
       {
+        id: "field-checklist",
+        type: "steps",
+        heading: "What to do next",
+        items: [
+          { title: "Collect the needed materials", body: "Gather wood and other resources before opening the backpack craft grid." },
+          { title: "Choose the right work area", body: "Use the grid for portable items, modular building for shelters and bridges, and a campfire for cooking." },
+          { title: "Check the route after building", body: "A repaired or newly built bridge should connect the intended landmasses." },
+        ],
+      },
+      {
         id: "what-grid-produces",
         type: "prose",
         heading: "What the Craft Grid Produces",
         body:
           "- **Arrows** — crafted from sticks; these are the only source of ranged ammo.\n- **Bow** — the bow starts as a permanent handle that always stays in the inventory and can break but never disappears; the player scavenges materials and rebuilds it through the craft grid.\n- **Axes, knives, spears** — craftable tools with upgrade tiers; the spear is introduced as a later weapon than the bow.\n- **Magical potions (Vaki-aligned)** — brewed through the craft grid to help survive dungeons, enemies, and bad Lykky.\n- **Magic bridges** — craftable via Vaki to reach smaller islands and to repair some mysteriously broken bridges.\n- **Cookable food** — placed at a campfire to prepare meals; ingredients must be physically carried to a campfire and placed there, separate from grid crafting.",
+        links: [{ label: "Among the Trolls Magic and Luck: Vaki and Lykky Explained", href: "/guides/magic-and-luck/" }],
       },
       {
         id: "modular-building",
@@ -524,6 +551,7 @@ export const guidePages: PageContent[] = [
         heading: "The Hunting Loop",
         body:
           "- The bow is the primary hunting weapon for smaller, faster game.\n- The spear is a later weapon option for larger prey and is introduced after the bow is reliable.\n- Axes and knives are used for skinning and processing the kill, not for the chase itself.\n- Stealth is required for alert animals like deer: players crouch and move slowly to avoid detection.\n- Tools (axes, bows, spears) cannot be used while the player is submerged in water, so combat and hunting are limited to land.",
+        links: [{ label: "Among the Trolls Combat Against Supernatural Creatures Guide", href: "/guides/combat-supernatural/" }],
       },
       {
         id: "lykky-hunting",
@@ -583,6 +611,7 @@ export const guidePages: PageContent[] = [
         heading: "Weapons and Tools That Work",
         body:
           "- The bow is the primary defense against supernatural creatures, and the bow's handle never disappears even when the bow breaks — so the player can always re-equip and rebuild.\n- Stealth (crouching, slow movement) lets the player pick off alert supernatural creatures one at a time, especially the ambush-style ones.\n- Vaki-aligned magical potions are brewed in the backpack and are the portable counter to supernatural creatures in dungeon and on the surface.\n- Magic bridges can be placed to reach smaller islands or to repair broken bridges when creatures or events have cut off the path.",
+        links: [{ label: "Among the Trolls Magic and Luck: Vaki and Lykky Explained", href: "/guides/magic-and-luck/" }],
       },
       {
         id: "bug-fixes",
@@ -656,6 +685,7 @@ export const guidePages: PageContent[] = [
         heading: "Forest Spirits and the Cupstone Network",
         body:
           "- Cupstones are large rocks with carved indentations scattered around the archipelago.\n- The player makes offerings (sacrificing gathered items) at these altars to recover Lykky, ward off corrupted creatures, and keep the borders of the worlds intact.\n- Sacrificing items to cupstones after over-hunting or clear-cutting is the in-game way to make amends and avoid a permanent dark sky with hostile spirit hunts.",
+        links: [{ label: "Among the Trolls Rituals: Cupstone Altars and Kynnys Doors", href: "/guides/rituals/" }],
       },
       {
         id: "familiars",
@@ -718,11 +748,22 @@ export const guidePages: PageContent[] = [
           "- Cupstones are large, ancient rocks with carved indentations found across the archipelago.\n- The player performs the ritual by sacrificing items — gathered resources, hunted game, branches, twigs — at the cupstone.\n- The result is that Lykky is recovered, corrupted creatures are warded off, and the borders between the human realm and the mythological realm are restored.\n- Sacrificing items to cupstones after over-hunting or clear-cutting is the in-game way to make amends and avoid a permanent dark sky with hostile spirit hunts.\n- Cupstone offerings are not a one-time fix: the player should treat them as a standing loop tied to how aggressively they have been hunting or chopping.",
       },
       {
+        id: "field-checklist",
+        type: "steps",
+        heading: "What to do next",
+        items: [
+          { title: "Recover local balance", body: "Offer gathered items at a cupstone when Lykky has fallen." },
+          { title: "Prepare the threshold", body: "Match the kynnys with its destination Portal Page before entering." },
+          { title: "Carry portable support", body: "Craft Vaki potions in the backpack for the dungeon stretch between cupstones." },
+        ],
+      },
+      {
         id: "kynnys-rituals",
         type: "prose",
         heading: "Kynnys (Threshold) Rituals",
         body:
           "- A kynnys is a solitary stone-arch portal bound to a destination and to its \"word.\"\n- Only the correct Portal Page can open the passage; the wrong Portal Page leaves the arch closed.\n- Inside a dungeon, the ritual is completed when the player chooses to return to the entry point or take an alternate exit.\n- Alternate exits often require an additional offering or item before they activate; trying to push through without preparation usually fails.\n- Adaptive music layers add or remove in real time as Lykky rises and falls, reinforcing the ritual mood.",
+        links: [{ label: "Among the Trolls Dungeon Locations: Kynnys Portals and Exits", href: "/guides/dungeon-locations/" }],
       },
       {
         id: "vaki-potions",
@@ -797,6 +838,7 @@ export const guidePages: PageContent[] = [
         heading: "The Talking Crow and Early Guides",
         body:
           "- The talking Crow is an early guide for Anna, appearing on the route toward and around the cabin.\n- Magical familiars appear once Lykky is healthy, so meeting later guides is tied to keeping the forest balance intact.\n- The Crow is the first concrete companion the player has before the family mystery starts unfolding.",
+        links: [{ label: "Among the Trolls Magic and Luck: Vaki and Lykky Explained", href: "/guides/magic-and-luck/" }],
       },
       {
         id: "worlds-merging",
